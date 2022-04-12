@@ -1,3 +1,3 @@
-const getStudentIdsSum = (students) => students.reduce((previousValue, currentValue) => previousValue + currentValue.id, 0);
+const getStudentIdsSum = (students) => students.reduce((preValue, next) => prevValue + next.id, 0);
 
 export default getStudentIdsSum;
