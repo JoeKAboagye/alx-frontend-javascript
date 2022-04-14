@@ -33,6 +33,7 @@ studentsList.forEach((objectList)=>{
     tablelocation.textContent = objectList.location;
     tablerow.appendChild(tablename);
     tablerow.appendChild(tablelocation);
-  })
+    tablebody.appendChild(tablerow);
+})
 student_table.appendChild(tablebody);
 document.body.appendChild(student_table);
