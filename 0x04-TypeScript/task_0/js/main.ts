@@ -24,16 +24,15 @@ let studentsList: Student[] = [Student1, Student2]
 const student_table = document.createElement('table');
 const tablebody = document.createElement('tbody');
 
-studentsList.forEach((objList)=>{
+studentsList.forEach((objectList)=>{
     const tablename = document.createElement('tablename');
     const tablerow = document.createElement('tablerow');
     const tablelocation = document.createElement('tablelocation');
 
-    tablename.textContent = objList.firstName;
-    tablelocation.textContent = objList.location;
+    tablename.textContent = objectList.firstName;
+    tablelocation.textContent = objectList.location;
     tablerow.appendChild(tablename);
     tablerow.appendChild(tablelocation);
-    tablebody.appendChild(tablerow);
-})
+  })
 student_table.appendChild(tablebody);
 document.body.appendChild(student_table);
